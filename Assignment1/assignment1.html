@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрационная форма</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="container-div">
+        <head>
+            <div class="registration-div">
+                <h1 class="registration-header">Registration Form</h1>
+            </div>
+        </head>
+        
+
+        <section class="section">
+            <form action="">
+                <div class="div-flex">
+                    <label class="element left_element" for="name_field">Enter Name</label>
+                    <div class="element right_element">
+                        <input type="text" id="name_field">
+                    </div>
+                </div>
+
+                <div class="div-flex">
+                    <label class="element left_element" for="password_field">Enter Password</label>
+                    <div class="element right_element">
+                        <input type="text" id="password_field">
+                    </div>
+                </div>
+
+                <div class="div-flex">
+                    <label class="element left_element" for="address_field">Enter Address</label>
+                    <div class="element right_element">
+                         <textarea class="address_textarea" name="address_textarea" id="address_field"></textarea>
+                    </div>
+                </div>
+
+                <div class="div-flex">
+                    <label class="element left_element" for="game_checkbox">Select Game</label>
+                    <div class="element right_element">
+                        <input type="checkbox" name="hockey" id="hockey">
+                        <label for="hockey">Hockey</label>
+                        <br>
+
+                        <input type="checkbox" name="football", id="football">
+                        <label for="football">Football</label>
+                        <br>
+
+                        <input type="checkbox" name="football", id="badminton">
+                        <label for="badminton">Badminton</label>
+                        <br>
+
+                        <input type="checkbox" name="cricket", id="cricket">
+                        <label for="cricket">Cricket</label>
+                        <br>
+
+                        <input type="checkbox" name="volleyball" id="volleyball">
+                        <label for="volleyball">Volleyball</label>
+                        <br>
+                    </div>            
+                </div>
+
+                <div class="div-flex">
+                    <label class="element left_element" for="gender_field">Gender</label>
+                    <div class="element right_element">
+                        <input type="radio" name="radio" id="gender_field">
+                        <label for="male">Male</label>
+
+                        <input type="radio" name="radio" id="gender_field">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="div-flex">
+                    <label class="element left_element" for="select_age_field">Select ur age</label>
+                    <div class="element right_element">
+                        <select class="age_select text" name="ages" id="select_age_field">
+                            <option value="select" selected>Select</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="div-flex">
+                    <label class="element left_element" for="select_photo_field">Select Photo</label>
+                    <div class="element right_element">
+                        <input class="text" type="file" name="photo" id="select_photo_field">
+                    </div>
+                </div>
+                
+                <div class="element div-flex-bottom">
+                    <input class="buttons" type="button" value="Click Me" >
+                    <input class="buttons" type="reset" value="Сбросить">
+                    <input class="buttons" type="submit" value="Submit Form">
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

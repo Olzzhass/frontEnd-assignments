@@ -1,0 +1,265 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    
+  }
+
+body{
+    font-family: 'Inter';
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 70px;
+}
+
+.container-div{
+    max-width: 1440px;
+    padding: 0 155px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 30.74px;
+    margin-right: 5px;
+}
+
+.logo-text{
+    width: 65.75px;
+    color: #2D2D2D;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+.header-menu-buttons-div{
+    /* display: flex; */
+    align-items: center;
+}
+
+.nav-menu{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    /* margin-right: 476px; */
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in{
+    font-family: inherit;
+    width: 70px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    color: #0070a0;
+    text-decoration: none;
+}
+
+.demo-btn{
+    font-family: inherit;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #0070a0;
+    color: #fff;
+}
+
+.demo-btn:hover{
+    background-color: red;
+}
+
+.nav-links{
+    padding: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.second-left-elements{
+    max-width: 525px;
+    height: 321px;
+}
+
+.second-line-elements{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.h1{
+    font-family: 'Fraunces';
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 63.8px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.text-div{
+    max-width: 351px;
+    max-height: 90px;
+
+}
+
+.text{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin-bottom: 29px;
+}
+
+.demo-btn-second{
+    border: none;
+    background-color: #0070a0;
+    color: white;
+    width: 174px;
+    height: 43px;
+}
+
+.demo-btn-second:hover{
+    background-color: red;
+}
+
+.blue-link{
+    color: #0070a0;
+    text-align: center;
+    padding: 18px;
+    padding-top: 15px;
+
+    background-color: inherit;
+    border: none;
+    background-image: url("arrow.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.table-image{
+    width: 452px;
+    height: 422px;
+}
+
+.third-line-elements{
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.third-line-text{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37.5px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #1F1F1F;
+    margin: 0;
+}
+
+.image-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 220px;
+}
+
+.list-element{
+    max-width: 124px;
+    max-height: 33px;
+}
+
+.fourth-line-elements{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 133px;
+}
+
+.rect-1{
+    background-color: #FAEA73;
+    background-image: url("naizagai.svg");
+}
+.rect-2{
+    background-color: #CCEFF6;
+    background-image: url("aksha.svg");
+}
+.rect-3{
+    background-color: #F7CEDC;
+    background-image: url("kol.svg");
+}
+
+.recs{
+    max-width: 355px;
+    padding:95px 36px 38px 32px;
+    background-repeat: no-repeat;
+    background-position: 32px 32px;
+}
+
+.fifth-line-elements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-line-left-element{
+    max-width: 300px;
+
+}
+
+.fifth-line-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-line-item{
+    max-width: 222.66px;
+    margin-right: 32px;
+}
+
+.fith-line-h1{
+    font-family: Fraunces;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50.4px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.fifth-line-h3{
+    font-family: Fraunces;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.fifth-line-text{
+    font-family: Inter;
+    max-width: 215px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.another-class{
+    padding-top: 60px;
+}
+
+.fifth-line-item:nth-child(3){
+    margin-right: 0;
+}
