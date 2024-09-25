@@ -4,7 +4,7 @@
   }
 
 body{
-    font-family: 'Inter';
+    font-family: 'Inter';   
 }
 
 .header{
@@ -142,7 +142,7 @@ body{
 
     background-color: inherit;
     border: none;
-    background-image: url("arrow.svg");
+    background-image: url("img/arrow.svg");
     background-position: right;
     background-repeat: no-repeat;
 }
