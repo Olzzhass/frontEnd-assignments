@@ -1041,3 +1041,45 @@ img, picture, video, canvas, svg {
 
   color: #FFFFFF;
 }
+
+.bottom_left_p{
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  text-align: left;
+
+  color: #989899;
+}
+
+.bottom_left_p_white{
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  text-align: left;
+
+  color: #FFFFFF;
+}
+
+.bottom_left_p_orange{
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  text-align: left;
+
+  color: #FF4D01;
+}
+
+.footer_bottom_div{
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.bottom_right{
+  display: flex;
+}
