@@ -528,9 +528,11 @@ img, picture, video, canvas, svg {
 }
 
 .why_choose_us_div_top_div{
+  max-width: 1275.2px;
+
   margin-top: 300.23px;
-  margin-left: 146px;
-  margin-right: 146px;
+  /* margin-left: 146px; */
+  /* margin-right: 146px; */
   margin-bottom: 100px;
 }
 
@@ -554,6 +556,7 @@ img, picture, video, canvas, svg {
 
 .why_choose_us_div_top_div{
   display: flex;
+  justify-content: space-between;
 }
 
 .wcu_td_left_element{
@@ -635,11 +638,11 @@ img, picture, video, canvas, svg {
 }
 
 .why_choose_us_div_bottom_div{
-  max-width: 1148px;
+  max-width: 1275.2px;
   max-height: 534px;
 
-  margin-left: 146px;
-  margin-right: 146px;
+  /* margin-left: 146px; */
+  /* margin-right: 146px; */
   margin-bottom: 300px;
 
   display: flex;
@@ -744,18 +747,6 @@ img, picture, video, canvas, svg {
 
   color: #989899;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .blog_section{
   margin-left: 122px;
@@ -1082,4 +1073,267 @@ img, picture, video, canvas, svg {
 
 .bottom_right{
   display: flex;
+}
+
+.testinomials_section{
+  max-width: 1275.2px;
+  margin: 0 auto;
+}
+
+.testi_cnt{
+  margin-bottom: 220px;
+}
+
+.testinomials_top_div{
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.flexB{
+  display: flex;
+  justify-content: space-between;
+}
+
+.testinomials_top_text_block{
+  max-width: 424px;
+}
+
+.text_block{
+  max-width: 602px;
+}
+
+.testinomials_first_btn{
+  width: 72px;
+  height: 72px;
+
+  background-color: transparent;
+  border: 3px #191919 solid;
+
+}
+
+.testinomials_second_btn{
+  width: 72px;
+  height: 72px;
+
+  background-color: #FF4D01;
+  border: none
+}
+
+.home_btns{
+  width: 170px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.testinomials_list{
+  padding-left: 0;
+}
+
+.testinomials_list_item{
+  max-width: 790px;
+}
+
+.testinomials_image_block{
+  width: 340px;
+  margin-right: 34px;
+}
+
+.testinomials_text_block{
+  max-width: 362px;
+  padding-top: 28px;
+}
+
+.testinomials_header{
+  color: #191919;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+
+  margin-bottom: 13px;
+}
+
+.testinomals_text{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  color: #605E5D;
+
+  color: #989899;
+  margin-bottom: 33px;
+}
+
+.author_name{
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+
+  margin-bottom: 6px;
+}
+
+.author_address{
+  color: #989899;
+  font-family: Barlow;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.01px;
+  letter-spacing: 0.8399999737739563px;
+  text-align: left;
+
+}
+
+.author{
+  display: block;
+}
+
+.author_block{
+  align-items: center;
+}
+
+.swiper_rectangle{
+  width: 32px;
+  height: 32px;
+  background-color: #FF4D01;
+}
+
+.past_cnt{
+  max-width: 1275.2px;
+  margin: 0 auto;
+}
+
+.past_projects_section{
+  margin-bottom: 240px;
+}
+
+.past_projects_heading{
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.past_projects_text_block{
+  max-width: 424px;
+}
+
+.projects_text_block{
+  max-width: 602px;
+}
+
+.section_name{
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #FF4D01;
+  margin-bottom: 15px;
+}
+
+.projects_list{
+  padding-left: 0;
+
+  margin-bottom: 66px;
+  list-style: none;
+}
+
+.projects_card{
+  max-width: 545px;
+  padding: 300px 30px 30px 30px;
+
+  background: url("/img/past_project1.svg") no-repeat;
+
+}
+
+.projects_card:nth-child(4){
+  background: url("/img/past_project2.svg") no-repeat;
+
+}
+
+.card_heading{
+  font-family: Barlow;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 48.01px;
+  text-align: left;
+
+  margin-bottom: 14px;
+}
+
+.project_card_heading{
+  display: inline-block;
+  color: #ffffff;
+  max-width: 361px;
+}
+
+.section_text{
+  color: #989899;
+  margin-bottom: 33px;
+}
+
+.section_text{
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  text-align: left;
+
+  color: #EAEAEB;
+}
+
+.project_card_desc{
+  color: #EAEAEB;
+  margin-bottom: 43px;
+}
+
+.projects_hr{
+  color: #989899;
+  margin-bottom: 34px;
+}
+
+.project_goal{
+  padding-left: 54px;
+  color: #EAEAEB;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+
+  background: url("/img/projects_rect_icon.svg") no-repeat left;
+}
+
+.get_quote{
+  width: 169px;
+  height: 75px;
+
+  background-color: #FF4D01;
+
+  border: none;
+}
+
+.avg_btn{
+  background-color: transparent;
+
+  width: 211px;
+  height: 75px;
+}
+
+.button_p{
+  font-family: Barlow;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.past_project_btns{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_outer_div{
+  max-width: 1275.2px;
+
+  display: flex;
+  justify-content: center;
 }
