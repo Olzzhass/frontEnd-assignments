@@ -27,6 +27,11 @@ img, picture, video, canvas, svg {
   text-align: left;
 }
 
+
+
+
+
+/* Home page */
 .home_page_section{
   /* max-width: 1440px; */
   height: 955px;
@@ -61,6 +66,10 @@ img, picture, video, canvas, svg {
 .pages{
   padding-right: 25px;
   margin-right: 32px;
+}
+
+.buttons{
+  border: none;
 }
 
 .contact{
@@ -156,11 +165,18 @@ img, picture, video, canvas, svg {
 }
 
 .about_us_page_section{
-  margin-left: 146px;
+  /* margin-left: 146px;
   margin-right: 146px;
   margin-top: 144px;
-  max-width: 1148px;
+  max-width: 1148px; */
+}
+
+.about_us_page{
   display: flex;
+  justify-content: space-around;
+  max-width: 1275.2px;
+  margin: 0 auto;
+  margin-top: 144px;
 }
 
 .about_us_div_left_element{
@@ -277,10 +293,15 @@ img, picture, video, canvas, svg {
 }
 
 .our_services_div{
-  margin-top: 300px;
+  /* margin-top: 300px;
   margin-bottom: 300px;
   margin-left: 122px;
-  margin-right: 122px;
+  margin-right: 122px; */
+
+  max-width: 1275.2px;
+  margin: 0 auto;
+  margin-top: 300px;
+  margin-bottom: 300px;
 }
 
 .our_services_div_top_elements{
@@ -510,6 +531,15 @@ img, picture, video, canvas, svg {
   color: #FFFFFF;
 }
 
+.why_choose_us_and_past_projects_section{
+  max-width: 1275.2px;
+  margin: 0 auto;
+
+
+  background: url("/img/why-choose-us-pyramid.svg") no-repeat top;
+  padding-top: 303px;
+}
+
 .get_a_quote_today_our_services_button{
   width: 180px;
   height: 75px;
@@ -530,16 +560,15 @@ img, picture, video, canvas, svg {
 .why_choose_us_div_top_div{
   max-width: 1275.2px;
 
-  margin-top: 300.23px;
+  /* margin-top: 300.23px; */
   /* margin-left: 146px; */
   /* margin-right: 146px; */
   margin-bottom: 100px;
 }
 
 .why_choose_us_div{
-  margin-top: 300.23px;
-  margin-left: 146px;
-  margin-right: 146px;
+  /* margin-left: 146px;
+  margin-right: 146px; */
   margin-bottom: 100px;
 }
 
@@ -646,6 +675,7 @@ img, picture, video, canvas, svg {
   margin-bottom: 300px;
 
   display: flex;
+  justify-content: space-between;
 }
 
 .wcu_bd_left_elements{
@@ -752,6 +782,11 @@ img, picture, video, canvas, svg {
   margin-left: 122px;
   margin-right: 122px;
   margin-bottom: 75px;
+}
+
+.blog_section_div{
+  max-width: 1275.2px;
+  margin: 0 auto;
 }
 
 .blog_header_div{
