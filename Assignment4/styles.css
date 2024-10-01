@@ -1,0 +1,183 @@
+html{
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Uinbase';
+    src: url('/fonts/UF1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Usually';
+    src: url('/fonts/Usually-font-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'Rosario';
+    src: url('/fonts/Rosario.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: linear-gradient(180deg, #0E141C 0%, #0A0F14 100%);
+    height: 100%;
+
+    font-family: 'Uinbase';
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.flexB{
+    display: flex;
+    justify-content: space-between;
+}
+
+.messenger{
+    margin-right: 5px;
+}
+
+.telegram a{
+    width: 19px;
+    height: 18px;
+    background: url("/img/messenger-logos/telegram-logo.svg") no-repeat;
+}
+
+.vk a{
+    width: 26.35px;
+    height: 18px;
+    background: url("/img/messenger-logos/vk-logo.svg") no-repeat;
+}
+
+.insta a{
+    width: 19px;
+    height: 19px;
+    background: url("/img/messenger-logos/instagram-logo.svg") no-repeat;
+}
+
+.container{
+    max-width: 1568px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header{
+    padding-top: 43px;
+
+    margin-bottom: 135px;
+}
+
+.nav{
+    padding-left: 105px;
+}
+
+.nav .logo{
+    margin-right: 57px;
+}
+
+.nav_ul_item{
+    display: flex;
+    align-items: center;
+
+    margin-right: 46px;
+}
+
+.nav_ul_link{
+    font-size: 20px;
+    line-height: 12px;
+}
+
+.nav_ul_link:hover{
+    color: #D1C12B;
+}
+
+.header_messenger_list{
+    display: flex;
+    align-items: center;
+
+    padding-right: 21px;
+}
+
+/* EVERYONE EVERYDAY */
+
+.everyday_section{
+    margin-bottom: 214px;
+}
+
+.everyday_container{
+    text-align: center;
+}
+
+.everyone_text{
+    position: relative;
+    font-family: 'Usually', sans-serif;
+
+    margin-bottom: 72px;
+}
+
+.background_text{
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: auto;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 72px;
+    letter-spacing: 10px;
+    
+    font-size: 170px;
+    line-height: 148.07px;
+}
+
+.front_text{
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 113.23px;
+    text-align: center;
+
+    text-shadow: 
+    3px 3px 5px #A332CA,   /* Фиолетовая тень */
+    -4px -1px 2px #D1C12B; /* Жёлтая тень */
+}
+
+.everyday_text{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+
+    margin-bottom: 178px;
+}
+
+.catalog{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 243px;
+}
+
+.catalog_button{
+    font-family: 'Rosario', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.24px;
+    color: #D1C12B;
+
+    background-color: inherit;
+    border: 2px solid #D1C12B;
+    border-radius: 30px;
+    padding: 12px 36px 12px 77px;
+
+    background: url("/img/logotyps/button_logotype.svg") no-repeat;
+    background-position: 30px center;
+}
