@@ -25,6 +25,7 @@ html{
 
 body{
     background: linear-gradient(180deg, #0E141C 0%, #0A0F14 100%);
+    background-attachment: fixed;
     height: 100%;
 
     font-family: 'Uinbase';
@@ -142,6 +143,7 @@ a{
 }
 
 .front_text{
+    padding-top: 14px;
     font-size: 130px;
     font-weight: 700;
     line-height: 113.23px;
@@ -180,4 +182,336 @@ a{
 
     background: url("/img/logotyps/button_logotype.svg") no-repeat;
     background-position: 30px center;
+}
+
+/* CURRENT SEASON */
+
+.current_season_section{
+    margin-bottom: 28px;
+}
+
+.current_season_container{
+    text-align: center;
+    max-width: 1568px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.current_season_text{
+    position: relative;
+    font-family: 'Usually', sans-serif;
+
+    margin-bottom: 72px;
+
+    left: auto;
+    right: auto;
+}
+
+.season_background_text{
+    position: absolute;
+    top: 0;
+    /* color: rgba(255, 255, 255, 0.1);  */
+    color: #1F252D;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 160px;
+}
+
+.season_front_text{
+    position: relative;
+    font-family: 'Uinbase';
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: left;
+    padding-top: 42px;
+}
+
+.image_container{
+    position: relative;
+    width: 100%;
+    margin-left: 13%;
+    max-width: 1248px;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+}
+
+.image_inner{
+    position: absolute;
+    max-width: 300px;
+    color: white;
+    right: 100px;
+    bottom: 185px;
+    text-align: center;
+}
+
+.image_inner_text{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.image_arrow{
+    position: absolute;
+    bottom: 23px;
+    left: 25px;
+}
+
+.slider_div{
+    width: 100%;
+    margin-left: 13%;
+    max-width: 1248px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    padding-left: 163px;
+    padding-right: 163px;
+}
+
+.slide{
+    width: 161px;
+    height: 0px;
+    border: 2px solid white;
+}
+
+/* ACTUAL SECTION */
+
+.actual_section{
+    margin-bottom: 38px;
+}
+
+.actual_container{
+    text-align: center;
+    max-width: 1568px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.actual_text{
+    position: relative;
+    font-family: 'Usually', sans-serif;
+    padding-left: 5%;
+}
+
+.actual_background_text{
+    position: absolute;
+    bottom: 0;
+    /* color: rgba(255, 255, 255, 0.1);  */
+    color: #1F252D;
+    font-size: 160px;
+    font-weight: 700;
+    line-height: 160px;
+    text-align: right;
+}
+
+.actual_front_text{
+    position: relative;
+    font-family: 'Uinbase';
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: right;
+    padding-top: 42px;
+}
+
+/* ITEMS */
+
+.items_section{
+    margin-bottom: 50px;
+}
+
+.items_container{
+    max-width: 1248px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.actual_list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1248px;
+    /* margin-left: 3%; */
+}
+
+.actual_image{
+    border-radius: 10px;
+}
+
+.act_img_2{
+    width: 100%;
+    height: 370.250px;
+    object-fit: cover;
+}
+
+.actual_list_item{
+    border-radius: 10px;
+    /* border: 2px solid white; */
+    max-width: 270px;
+    background-color: #10171F;
+}
+
+.actual_item_text{
+    text-transform: uppercase;
+
+    font-family: 'Uinbase';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+
+    margin-top: 2%;
+}
+
+.price_and_basket{
+    max-width: 240px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.price{
+    font-family: 'Uinbase';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.basket{
+    text-transform: uppercase;
+
+    font-family: 'Uinbase';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    text-decoration: underline;
+}
+
+.outer_div{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.see_more_link{
+    text-decoration: underline;
+}
+
+/* CONTACTS */
+.contacts_section{
+    margin-bottom: 71px;
+}
+
+.contacts_container{
+    max-width: 1568px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts_text{
+    position: relative;
+    font-family: 'Usually', sans-serif;
+
+    
+
+    margin-bottom: 55px;
+}
+
+.contacts_background_text{
+    position: absolute;
+    top: 0;
+    color: #1F252D; 
+    font-size: 180px;
+    font-weight: 700;
+    line-height: 160px;
+}
+
+.contacts_front_text{
+    position: relative;
+    font-family: 'Uinbase';
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.contacts_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts_image{
+    max-width: 1114px;
+    max-height: 742px;
+}
+
+.contacts_text{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.phone_number, .email{
+    font-family: 'Uinbase';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.messenger_list{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.messanger{
+    margin-left: 5px;
+}
+
+/* FOOTER */
+
+.footer{
+    padding-top: 39px;
+    padding-bottom: 64px;
+}
+
+.footer_container{
+    max-width: 1602px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_container * {
+    font-family: 'Rosario', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18.18px;
+}
+
+.footer_logo_and_info img{
+    margin-bottom: 10px;
+}
+
+.footer_year{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 18px 0 38px;
 }
