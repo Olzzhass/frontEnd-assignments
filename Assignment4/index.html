@@ -12,6 +12,13 @@
 <body>
     <header class="header">
         <div class="container flexB">
+
+            <div class="burger_div">
+                <div class="burger_line"></div>
+                <div class="burger_line"></div>
+                <div class="burger_line"></div>
+            </div>
+
             <nav class="nav flexB">
                 <figure class="logo">
                     <img src="/img/logotyps/logo_small.svg" alt="Small logotype for header">
@@ -23,7 +30,7 @@
                     <li class="nav_ul_item">
                         <a href="#" class="nav_ul_link">КОЛЛЕКЦИИ</a>
                     </li>
-                    <li class="nav_ul_item">
+                    <li class="nav_ul_item o_nas">
                         <a href="#" class="nav_ul_link">О НАС</a>
                     </li>
                     <li class="nav_ul_item">
@@ -47,9 +54,9 @@
             <div class="everyday_container">
                 <figure class="logo">
                     <a href="#">
-                        <img src="/img/logotyps/logo_big.svg" alt="Big Logotype">
+                        <img class="image_class" src="/img/logotyps/logo_big.svg" alt="Big Logotype">
                     </a>
-                </figure>
+                    </figure>
 
                 <div class="everyone_text">
                     <h2 class="background_text">ОДЕЖДА ДЛЯ КАЖДОГО</h2>
@@ -59,6 +66,12 @@
                 <div class="everyday_text">НА КАЖДЫЙ ДЕНЬ</div>
 
                 <div class="catalog">
+                    <ul class="catalog_messenger_list">
+                        <li class="messenger telegram"><a href="#"></a></li>
+                        <li class="messenger vk"><a href="#"></a></li>
+                        <li class="messenger insta"><a href="#"></a></li>
+                    </ul>
+
                     <button class="catalog_button">КАТАЛОГ</button>
                 </div>
             </div>
@@ -121,7 +134,7 @@
                         </div>  
                     </li>
 
-                    <li class="actual_list_item">
+                    <li class="actual_list_item hide">
                         <img class="actual_image" src="/img/girls.svg" alt="Girls image">
                         <h2 class="actual_item_text">Костюм Advolatum соцветие</h2>       
                         <div class="price_and_basket">
@@ -130,7 +143,7 @@
                         </div>  
                     </li>
  
-                    <li class="actual_list_item">
+                    <li class="actual_list_item hide">
                         <img class="actual_image" src="/img/girls.svg" alt="Girls image">
                         <h2 class="actual_item_text">Костюм Advolatum соцветие</h2>       
                         <div class="price_and_basket">
@@ -139,7 +152,7 @@
                         </div>  
                     </li>
                 </ul>
-                <div class="outer_div">
+                <div class="outer_div hide">
                     <div class="see_more">
                         <a href="#" class="see_more_link">СМОТРЕТЬ БОЛЬШЕ</a>
                     </div>
@@ -176,17 +189,19 @@
 
     <footer class="footer">
         <div class="footer_container">
-            <p class="footer_p">политика конфиденциальности<br>
-                согласие на обработку персональных данных
-            </p>
-
-            <div class="footer_logo_and_info">
-                <img src="/img/logotyps/logo_big.svg" alt="Footer logotype">
-                <div class="footer_year">
-                    <p>2022</p>
-                    <p>GruboGovorya</p>
+            <!-- <div class="footer_reverse"> -->
+                <p class="footer_p">политика конфиденциальности<br>
+                    согласие на обработку персональных данных
+                </p>
+    
+                <div class="footer_logo_and_info">
+                    <img src="/img/logotyps/logo_big.svg" alt="Footer logotype">
+                    <div class="footer_year">
+                        <p>2022</p>
+                        <p>GruboGovorya</p>
+                    </div>
                 </div>
-            </div>
+            <!-- </div> -->
 
             <ul class="messenger_list">
                 <li class="messanger telegram"><a href="#"></a></li>

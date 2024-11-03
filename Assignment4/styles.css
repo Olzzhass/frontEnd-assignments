@@ -85,6 +85,11 @@ a{
     padding-left: 105px;
 }
 
+.burger_div{
+    display: none;
+    visibility: hidden;
+}
+
 .nav .logo{
     margin-right: 57px;
 }
@@ -120,6 +125,11 @@ a{
 
 .everyday_container{
     text-align: center;
+}
+
+.catalog_messenger_list{
+    display: none;
+    visibility:hidden;
 }
 
 .everyone_text{
@@ -159,6 +169,8 @@ a{
     font-weight: 400;
     line-height: 25px;
 
+    /* margin-top: 175px; */
+    margin-top: 8%;
     margin-bottom: 178px;
 }
 
@@ -514,4 +526,293 @@ a{
     display: flex;
     justify-content: space-around;
     padding: 0 18px 0 38px;
+}
+
+
+@media (max-width: 1600px){
+    /* HEADER */
+    .container{
+        max-width: 1500px;
+    }
+
+    .header_messenger_list{
+        padding-right: 50px;
+    }
+
+
+    /* EVERYDAY */
+    .everyday_section{
+        margin-bottom: 50px;
+    }
+
+    .catalog{
+        margin-top: 500px;
+        margin-right: 176px;
+    }
+
+    .background_text{
+        font-size: 7em;
+    }
+
+    .front_text{
+        font-size: 5em;
+
+        padding-top: 30px;
+    }
+
+    .everyone_text{
+        margin-bottom: 0;
+    }
+
+    /* CURRENT SEASON */
+
+    .current_season_container{
+        max-width: 1248px;
+    }
+
+    .season_background_text{
+        text-align: left;
+        font-size: 9em;
+    }
+
+    .season_front_text{
+        max-width: 500px;
+        padding-top: 75px;
+    }
+
+    .image_container{
+        top: -75px;
+        margin-left: 0;
+    }
+
+    .image_inner{
+        bottom: 165px;
+    }
+
+    .slider_div{
+        position: relative;
+        top: -75px;
+        margin-left: 0;
+    }
+
+    /* ACTUAL SECTION */
+
+    .actual_section{
+        max-width: 1248px;
+    }
+
+    .actual_background_text{
+        margin-left: 200px;
+        z-index: -1;
+        max-width: 1150px;
+    }
+
+    /* CONTACTS */
+    .contacts_container{
+        max-width: 1248px;
+    }
+
+    .contacts_background_text{
+        font-size: 162px;
+    }
+
+    .contacts_front_text{
+        padding-top: 40px;
+    }
+
+    .contacts_image{
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 800px){
+    /* HEADER */
+
+    .nav{
+        max-width: 672px;
+        padding-left: 0;
+    }
+
+    .flexB{
+        justify-content: space-between;
+    }
+
+    .o_nas{
+        min-width: 65px;
+    }
+
+    .header_messenger_list{
+        display: none;
+    }
+
+    /* EVERYDAY */
+
+    .image_class{
+        max-width: 180px;
+    }
+
+    .everyday_container{
+        width: 800px;
+    }
+
+    .background_text{
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .front_text{
+        padding-top: 15px;
+        font-size: 60px;
+        line-height: 57px;
+    }
+
+    .everyday_text{
+        padding-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    .catalog{
+        justify-content: center;
+        margin-right: 0;
+        margin-top: 0;
+        display: block;
+    }
+
+    .catalog_messenger_list{
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+
+        margin-top: 30px;
+    }
+
+    .catalog_button{
+        margin-top: 30px;
+    }
+
+    /* CURRENT SEASON */
+
+    .image_inner{
+        display: none;
+        visibility: none;
+    }
+
+    .slider_div{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .slide{
+        width: 101px;
+    }
+
+    .slide:nth-child(1){
+        display: none;
+        visibility: hidden;
+    }
+
+    .season_background_text{
+        font-size: 90px;
+    }
+
+    .season_front_text{
+        font-size: 80px;
+        max-width: 627px;
+        margin-bottom: 140px;
+        padding-top: 120px;
+    }
+
+    .slider_div{
+        display: none;
+        visibility: hidden;
+    }
+
+    .actual_background_text{
+        margin-left: 0;
+        text-align: center;
+        max-width: 800px;
+        font-size: 80px;
+    }
+
+    .actual_front_text{
+        padding-top: 4%;
+        height: 150px;
+        max-width: 679px;
+        font-size: 100px;
+    }
+
+    .current_season_section{
+        margin-bottom: 0;
+    }
+
+    .hide{
+        display: none;
+        visibility: hidden;
+    }
+
+    .actual_list{
+        justify-content: space-around;
+        margin-bottom: 20%;
+    }
+
+    .contacts_front_text{
+        padding-top: 0;
+    }
+
+    .contacts_background_text{
+        max-width: 797px;
+        font-size: 100px;
+        padding-top: 1%;
+    }
+
+    .contacts_content{
+        display: block;
+    }
+
+    .contacts_text{
+        margin-top: 5%;
+    }
+
+    .footer_container{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .footer_reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer_p{
+        text-align: center;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 428px){
+    .nav{
+        display: none;
+        visibility: hidden;
+    }
+
+    .header_messenger_list{
+        visibility: visible;
+        display: flex;
+    }
+
+    .burger_div{
+        display: block;
+        visibility: visible;
+    }
+
+    .burger_line{
+        width: 53px;
+        height: 6px;
+        background-color: #D1C12B;
+        border-radius: 4px;
+    }
 }
